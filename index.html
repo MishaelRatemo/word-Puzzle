@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Word Puzzle</title>
+</head>
+<body>
+    <main class="container bg-secondary p-5">
+        <div>
+            <h1 class="fw-bold">Word Puzzle</h1>
+            <h3 class="bg-dark text-white p-2 pl-5" >Intro</h3>
+            <p class="text-white">This is an application that <strike>filters</strike> all <strong>vowels</strong> in the a given 
+                text and <b><i>replaces</i></b> the with an hyphen. Thank you.
+            </p>
+                <h5 class="bg-dark text-white">Sample text</h5>
+            <p id="target" class="bg-info">
+                Believe you can and you're halfway there.
+                Robert Mugabe. This man was very firm on his principles
+                and character not even the colonial leader could convince
+                him to give in. Rest in peace Kiongozi.
+            </p>
+        </div>
+        <h5 class="bg-dark text-white">Replaced data</h5>
+        <p id="results" class="bg-success text-white "></p>
+        <hr>
+        <footer>
+            <h6 class="bg-dark p-4 text-center text-warning"> Mishael &copy; copyright 2021 @ Moringa school | <span class="text-info">| more updates coming soon</span></h6>
+        </footer>
+        <hr>
+    </main>
+    <script src="wordPuzzle.js"></script>
+</body>
+</html>
